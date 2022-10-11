@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>project00</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /*universal selector*/
+            *{
+                font-size: 1.2rem;
+            }
+            
+            a[href *='#']{
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
+            h2{
+                border-bottom: 1px black 
+            }
+            h3{
+                clear:both;
+                padding:20px;
+                border: 1px blueviolet solid;
+                background: yellow;
+                width: 33%;
+            }
+            #begin{
+                font-size: 2.5rem;
+            }
+            .pic{
+                width: 5%;
+                border-radius:50%;
+                float:left;
+            }
+            
+            /*pseudo class selector*/
+            a:link{
+                color: red;
+            }
+            a:hover{
+                background: yellow;
+            }
+            a:active{
+                color:white;
+            }
+            a:focus{
+                background: orange;
+            }
+            li:first-child{
+                list-style-type: symbols;
+            }
+            li:nth-child(even){
+                color: purple;
+            }
+            #a::before{
+                content: '💀';
+            }
+            /*pseudo element selector*/
+            p::before{
+                content: '☠';
+            }
+            p::after{
+                content: '💀';
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="begin">Title must be very very very very very long.</h1>
+        <p id='a'>paragraph</p>
+        <hr>
+        <h2>list</h2>
+        <ul>
+            <li><a href="#T1">list item1</a></li>
+            <li><a href="#T2">list item2</a></li>
+            <li><a href="#T3">list item3</a></li>
+            <li><a href="#T4">list item4</a></li>
+            <li><a href="#T5">list item5</a></li>
+            <li><a href="#T6">list item6</a></li>
+            <li><a href="#T7">list item7</a></li>
+        </ul>
+        <hr>
+        <h2>link</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">3w school</a></li>
+            <li><a href="https://developer.mozilla.org/zh-TW/docs/Web/HTML" target="_blank">mozilla</a></li>
+        </ul>
+        <br><br>
+        <h2>newpage</h2>
+        <ul>
+            <li><a href="sample1.html" target="_blank">sample1</a></li>
+            <li><a href=".sample2.html" target="_blank">sample2</a></li>
+        </ul>
+        <hr>
+        <h3 id="T1">sample1</h3>
+        <img src="img/fruit2/1.jpg" alt="apple" class='pic'>
+        <p>this is a long paragraph<br>with new line</p><a href="#begin">back to top</a>
+        <h3 id="T2">sample2</h3>
+        <img src="img/fruit2/2.jpg" alt="apple" class='pic'>
+        <p>this is a long paragraph <br><br>with two newline</p><a href="#begin">back to top</a>
+        <h3 id="T3">sample3</h3>
+        <img src="img/fruit2/3.jpg" alt="apple" class='pic'>
+        <p>this is a long paragraph <br><br><br> with three newline</p><a href="#begin">back to top</a>
+        <h3 id="T4">sample4</h3>
+        <img src="img/fruit2/4.jpg" alt="apple" class='pic'>
+        <p>this is a longparagraph <br><br><br><br>with four newline</p><a href="#begin">back to top</a>
+        <h3 id="T5">sample5</h3>
+        <img src="img/fruit2/5.jpg" alt="apple" class='pic'>
+        <p>this is a long paragraph<br><br><br><br><br> with five newline</p><a href="#begin">back to top</a>
+        <h3 id="T6">sample6</h3>
+        <img src="img/fruit2/6.jpg" alt="apple" class='pic'>
+        <p>this is a long paragraph<br><br><br><br><br><br> with six newline</p><a href="#begin">back to top</a>
+        <h3 id="T7">sample7</h3>
+        <img src="img/fruit2/7.jpg" alt="apple" class='pic'>
+        <p>this is a long paragraph<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> with many newline</p><a href="#begin">back to top</a>
+      </body>
+
+</html>

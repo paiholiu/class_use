@@ -1,0 +1,179 @@
+            *{
+                box-sizing: border-box;
+            }
+
+            body{
+                margin: 0px;
+            }
+            
+            
+            nav{
+                background-color: #231942;
+                padding: 0px;
+            }
+            nav li{
+                padding: 0.8vw;
+            }
+            nav ul{
+                list-style-type: none;
+                display: inline-flex;
+                margin: 0px;
+            }
+            nav a{
+                text-decoration: none;
+                color: #e0b1cb;
+            }
+            nav li:hover{
+                background-color: white;
+                border-left: 2px #5e548e solid;
+                border-right: 2px #5e548e solid;
+
+            }
+
+            
+            header{
+                width: 100%;
+                height: 10vh;
+                font-size: 2rem;
+                color: #ffbe0b;
+                background-image: url(img/icon.png), url(img/star_sky.jpg);
+                background-size: contain, cover;
+                background-repeat: no-repeat;
+                background-position: 60%;
+                
+                /*TEXT */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            
+            #menu{
+                margin: 0px;
+            }            
+            #menu a{               
+                text-decoration: none;
+                color: purple;
+            }
+            #menu ul{
+                list-style-type: none;
+                padding: 0px;
+                margin: 0px;
+            }
+            #menu li{
+                margin-bottom: 3px;
+                border-bottom: 3px purple solid;
+                padding: 8px;
+                text-align: center;
+                font-size: 1.5rem; 
+            }
+            #menu video{
+                width: 100%;
+                padding: 5px;
+                border: 2px #5e548e solid;
+                border-radius: 5px;
+            }
+             #menu audio{
+                width: 100%;
+                padding: 5px;
+            }
+            #menu li:hover{
+                background-image: url(img/icon.png), url(img/star_sky.jpg);
+                background-size: 5%, cover;
+                background-repeat: no-repeat;
+                background-position: 90%;                
+                cursor: pointer;
+                 color: white;
+            }
+            /*
+            #menu li a:hover{
+                color: white;
+            }
+            */
+            .con-video{
+                width: 33%;
+                 float: left;
+            }
+            .con-video iframe{
+               width: 100%;
+                height: 30vh;
+            }
+            .con-web iframe{
+                width: 66%;
+                height: 30vh;
+            }
+            .con-main-scroll{
+                width:100%;
+                height: 45vh;
+                overflow-y: scroll;
+            }
+            .cd div{
+               padding: 5px;
+            }
+            .content p{
+                text-align: justify;
+            }
+            
+            
+            
+            .article img{
+                width: 100%;
+                border-radius: 50%;
+                box-shadow: 8px 8px 2px gray;
+            }
+            .article div{
+                border-left: 1px #5e548e solid;
+                border-right: 1px #5e548e solid;
+                width:100%;
+                height: 20vh;
+                overflow-y: scroll;
+            }
+            
+              #footer{
+                position: fixed;
+                text-align: center;
+                font-size: 1.5rem;
+                width: 100%;
+                background-color: lightslategrey;
+                padding: 10px;
+                left: 0px;
+                bottom: 0px;
+            }
+            
+            
+            [class *='col-']{
+                width: 100%;
+                float: left;
+                padding: 2vw;
+                padding-bottom: 15vh;
+            }
+            @media only screen and (min-width:992px){
+                .col-tablet-1{width: 8.33%;}
+                .col-tablet-2{width: 16.66%;}
+                .col-tablet-3{width: 25.00%;}
+                .col-tablet-4{width: 33.33%;}
+                .col-tablet-5{width: 41.66%;}
+                .col-tablet-6{width: 50.00%;}
+                .col-tablet-7{width: 58.33%;}
+                .col-tablet-8{width: 66.66%;}
+                .col-tablet-9{width: 75.00%;}
+                .col-tablet-10{width: 83.33%;}
+                .col-tablet-11{width: 91.66%;}
+                .col-tablet-12{width: 100.0%;}
+            }
+            
+            @media only screen and (min-width:1200px){
+                .col-pc-1{width: 8.33%;}
+                .col-pc-2{width: 16.66%;}
+                .col-pc-3{width: 25.00%;}
+                .col-pc-4{width: 33.33%;}
+                .col-pc-5{width: 41.66%;}
+                .col-pc-6{width: 50.00%;}
+                .col-pc-7{width: 58.33%;}
+                .col-pc-8{width: 66.66%;}
+                .col-pc-9{width: 75.00%;}
+                .col-pc-10{width: 83.33%;}
+                .col-pc-11{width: 91.66%;}
+                .col-pc-12{width: 100.0%;}
+            }
+
