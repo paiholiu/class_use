@@ -1,0 +1,58 @@
+文字
+<h1>~<h6> 標題
+<p> 內文
+<br> 跳下一行
+<hr> 印出一條線
+
+列表
+<ul> 建立一列表
+<li> 列表中的子項
+
+圖片
+<img src="路徑" alt="">
+<source srcset="路徑" media="(max-width: ...px)"> 於不同寬度大小的裝置上切換圖片
+
+超連結
+<a href="#id"> 網頁內連結
+<a href="路徑"> 檔案內連結
+<a href="網址"> 外部網站連結
+<a href="網址" target="_blank"> 以新分頁的方式開啟超連結
+<a href="路徑/網址" target="name"> 將路徑丟到該name的內嵌框架 
+
+容器
+<div>
+<nav> 表示網頁超連結區域
+<header> 表示網頁頁首
+<main> 表示網頁內文
+<footer> 表示網頁頁尾
+<picture> 專門放置照片
+<video> 專門放置影片，可包含<source>，可加上'controls=""'參數，以增加控制鍵
+<audio> 專門放置音訊，可包含<source>，可加上'controls=""'參數，以增加控制鍵
+
+表格
+<table>
+<thead> 表格標題
+<td> 表格欄位
+<tfoot> 表格後標
+
+表單
+<form> 表單容器
+<label> 文字顯示
+<input type="text" name="name" placeholder="message"> 輸入文字之欄位，並於欄位中標示message
+<input type="password" name="name" placeholder="message"> 輸入密碼之欄位，並於欄位中標示message
+<input type="email" name="name" placeholder="message"> 輸入mail之欄位，感測到'@'才允許輸入，並於欄位中標示message
+<input type="number" name="name" placeholder="choose "message"> 輸入數字之欄位，會於右側產生上下調整鍵，並於欄位中標示message
+<input type="radio" name="name" value="1">text 用於複數選項單選按鈕，會顯示後面之文字，使用時name需相同，送出後傳送value之數值
+<input type="checkbox" name="name" value="1">text 用於複數選項複選按鈕，會顯示後面之文字，使用時name需相同，送出後傳送value之數值
+<select name="name"> 下拉是選單
+
+<input type="submit" value="SEND">送出資料之按鈕            
+<input type="reset" value="RESET">重設資料之按鈕
+
+內嵌框架
+<iframe src="初始網址" name="name"></iframe> 可於網頁中開啟不同網頁，預設為初始網址，亦可開啟youtube
+
+資源
+<source src="檔名.mp4"  type="video/mp4"> 開啟mp4檔
+<source src="檔名.mp3" type="audio/mpeg"> 開啟mp3檔
+
